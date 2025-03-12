@@ -1,8 +1,4 @@
-type GreetProps = {
-  name: string,
-  age: number,
-  isLogin: boolean
-}
+import { GreetProps } from "./Greet.types";
 
 const Greet = (props: GreetProps) => {
   return (
